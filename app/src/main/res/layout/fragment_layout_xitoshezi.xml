@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+
+
+    android:padding="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="账号设置"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/xtsz_button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="资料与账号"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/xtsz_button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="推送通知"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:gravity="left"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="隐私设置"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#777575"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="通用"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/xtsz_button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:text="图片设置"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="清理存储空间"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="实验室"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="播放设置"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#777575"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="个人信息保护"
+            android:paddingLeft="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:text="系统权限管理"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="个人信息导出"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="已收集个人信息"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="第三方个人信息"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="用户协议"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#777575"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="关于"
+            android:paddingLeft="10dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:text="隐私政策摘要"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="反馈与帮助"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="开源软件声明"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:background="#00000000"
+            android:textColor="@color/black"
+            android:gravity="left"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:text="关于影视分享"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingRight="90dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="版本 1.0.1 >"
+                android:gravity="center"
+                android:paddingLeft="90dp"
+                android:paddingRight="2dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/xitoshezi_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:text="退出登录"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.5"/>
+
+        <TextView
+            android:id="@+id/linkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="lxxno.cn-追寻自己"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="#00BCD4"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="openWebPage"/>
+
+        <TextView
+            android:id="@+id/linkTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="滇ICP备2023009122号-1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="#00BCD4"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="openWebPage2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Copyright ©️ 2023-2024 DuanShaoJun.All Rights Reserved."
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

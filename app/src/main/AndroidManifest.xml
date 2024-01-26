@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Movieshare"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Movieshare.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+<!--        绑定注册YourNewActivity的点击事件-->
+        <activity android:name=".YourNewActivity">
+            <!-- 添加必要的配置，例如主题等 -->
+        </activity>
+        <activity android:name=".YourNewActivity2">
+
+        </activity>
+        <activity android:name=".YourNewActivity3">
+
+        </activity>
+        <activity android:name=".YourNewActivity_kobai">
+
+        </activity>
+
+
+
+    </application>
+
+
+
+</manifest>

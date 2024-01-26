@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.movieshare.ui.MovieListFragment_zhuye"
+        android:label="主页"
+        tools:layout="@layout/fragment_layout_zhuye" />
+
+    <fragment
+        android:id="@+id/nav_zuixingshanying"
+        android:name="com.example.movieshare.ui.NewMoviesFragment_zuixingshanying"
+        android:label="@string/zuixingshangy"
+        tools:layout="@layout/fragment_layout_zuixingshanying" />
+
+    <fragment
+        android:id="@+id/nav_jijianshangying"
+        android:name="com.example.movieshare.ui.jijianshangying"
+        android:label="@string/jijianshangying"
+        tools:layout="@layout/fragment_layo_jijianshangying" />
+    <fragment
+        android:id="@+id/nav_omeipaihang"
+        android:name="com.example.movieshare.ui.omeipaihang"
+        android:label="@string/omeipaihang"
+        tools:layout="@layout/fragment_layout_omeipaihang" />
+    <fragment
+        android:id="@+id/nav_xitoshezi"
+        android:name="com.example.movieshare.ui.xitoshezi"
+        android:label="@string/xitoshezi"
+        tools:layout="@layout/fragment_layout_xitoshezi" />
+    <fragment
+        android:id="@+id/nav_wodeshouchang"
+        android:name="com.example.movieshare.ui.wodeshouchang"
+        android:label="@string/wodeshouchang"
+        tools:layout="@layout/fragment_layout_wodeshouchang" />
+
+<!--    <fragment-->
+<!--        android:label="@string/dianyingxiangqing"-->
+<!--        tools:layout="@layout/activity_movie_dyxiangqingye"/>-->
+</navigation>

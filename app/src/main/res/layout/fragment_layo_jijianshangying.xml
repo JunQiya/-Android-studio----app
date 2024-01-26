@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@color/white"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/zxsy_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#69C3EC"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="熊出没·逆转时空"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024-02-10中国大陆上映"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="动画 喜剧 科幻"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演:林汇达"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演:熊二/熊大/更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/xcm"
+                tools:ignore="ContentDescription,MissingConstraints"
+                android:clickable="true"
+                android:onClick="onImageViewClick_kobai"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#6B739E"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating2"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="飞驰人生2"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024-02-10(中国大陆)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="剧情 / 喜剧 / 冒险"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演: 韩寒"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演:沈腾 / 尹正 / 黄景瑜 / 张本煜 / 范丞丞 / 更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image2"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fces2"
+                tools:ignore="ContentDescription,MissingConstraints"
+                android:clickable="true"
+                android:onClick="onImageViewClick_kobai"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#48B4E4"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating3"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="美人鱼2"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024-02-10(中国大陆)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text=" 喜剧 / 爱情 / 科幻 / 奇幻 / 冒险"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演:  周星驰"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演:艾伦 / 林允"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image3"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/mry2"
+                tools:ignore="ContentDescription,MissingConstraints"
+                android:clickable="true"
+                android:onClick="onImageViewClick_kobai"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#F4D474"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating4"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="野孩子
+"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024中国大陆上映"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="剧情"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演: 殷若昕"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演: 王俊凯/邓家佳/陈永胜/潘斌龙/关子勰/更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image4"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/yhz"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#86EEFB"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="云边有个小卖部"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024中国大陆上映"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="剧情 / 爱情"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演: 张嘉佳"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演:彭昱畅 / 周也 / 张艺凡 / 陈妍希/王大陆/更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image5"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ybyfxmb"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#E2E6E6"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating6"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="哪吒之魔童闹海"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024中国大陆上映"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="剧情 / 动画 / 奇幻"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演: 饺子"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="制片国家/地区: 中国大陆"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image6"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/nz2"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#AEAE98"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating7"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="花千骨"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2024-01-20(中国大陆)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="动作 / 爱情 / 奇幻"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演:  张超理"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演: 陈都灵 / 李程彬/茅子俊/赖美云/张紫宁/更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image7"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hxg"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#5DD8D8"
+            android:backgroundTint="#D0E3E2"
+            app:cardBackgroundColor="@color/primary_light"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="287dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="103dp"
+                android:background="#7E8A8A"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_simple_subject_rating8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_item_simple_subject_rating8"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dip"
+                        android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:progressDrawable="@drawable/ic_star_border_blue_16dp"
+                        android:rating="2.25" />
+
+                    <TextView
+                        android:id="@+id/tv_item_simple_subject_rating8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="暂无评分"
+                        android:textColor="#F5FF00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="(暂无评分)"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:text="流浪地球3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_originaltitle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="2027-02-06(中国大陆)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_genres8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text=" 科幻 / 冒险 / 灾难"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_simple_subject_director8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="导演: 郭帆"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvitem_simple_subject_cast8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="主演:吴京 / 刘德华 / 李雪健 / 屈楚萧/李光洁/更多..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_simple_subject_image8"
+                android:layout_width="100dp"
+                android:layout_height="161dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lldq3"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#5DD8D8"
+                    android:backgroundTint="#D0E3E2"
+                    app:cardBackgroundColor="@color/primary_light"
+                    app:cardCornerRadius="10dp"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="287dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="103dp"
+                        android:background="#5FCFCC"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/ll_item_simple_subject_rating9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:id="@+id/rb_item_simple_subject_rating9"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_half_blue_16dp"
+                                android:rating="2.25" />
+
+                            <TextView
+                                android:id="@+id/tv_item_simple_subject_rating9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="暂无评分"
+                                android:textColor="#F5FF00" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="(暂无评分)"
+                                android:textColor="#FF0000"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="4dp"
+                            android:singleLine="true"
+                            android:text="当幸福来敲门"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_originaltitle9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="The Pursuit of Happyness (2006)"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_genres9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text=" 剧情 / 家庭 / 传记"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_director9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="导演: 加布里埃莱·穆奇诺"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tvitem_simple_subject_cast9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="主演: 威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿/更多..."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_item_simple_subject_image9"
+                        android:layout_width="100dp"
+                        android:layout_height="161dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/dxflqm"
+                        tools:ignore="ContentDescription,MissingConstraints" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#5DD8D8"
+                    android:backgroundTint="#D0E3E2"
+                    app:cardBackgroundColor="@color/primary_light"
+                    app:cardCornerRadius="10dp"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="287dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="103dp"
+                        android:background="#5FCFCC"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/ll_item_simple_subject_rating10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:id="@+id/rb_item_simple_subject_rating10"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_half_blue_16dp"
+                                android:rating="2.25" />
+
+                            <TextView
+                                android:id="@+id/tv_item_simple_subject_rating10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="暂无评分"
+                                android:textColor="#F5FF00" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="(暂无评分)"
+                                android:textColor="#FF0000"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="4dp"
+                            android:singleLine="true"
+                            android:text="怦然心动"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_originaltitle10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="Flipped (2010)"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_genres10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="剧情 / 喜剧 / 爱情"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_director10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="导演: 罗伯·莱纳"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tvitem_simple_subject_cast10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="主演: 玛德琳·卡罗尔 / 卡兰·麦克奥利菲 /更多..."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_item_simple_subject_image10"
+                        android:layout_width="100dp"
+                        android:layout_height="161dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/prxd"
+                        tools:ignore="ContentDescription,MissingConstraints" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#5DD8D8"
+                    android:backgroundTint="#D0E3E2"
+                    app:cardBackgroundColor="@color/primary_light"
+                    app:cardCornerRadius="10dp"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="287dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="103dp"
+                        android:background="#5FCFCC"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/ll_item_simple_subject_rating11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:id="@+id/rb_item_simple_subject_rating11"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_blue_16dp"
+                                android:rating="2.25" />
+
+                            <RatingBar
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="5dip"
+                                android:indeterminateDrawable="@drawable/ic_star_border_blue_16dp"
+                                android:progressDrawable="@drawable/ic_star_half_blue_16dp"
+                                android:rating="2.25" />
+
+                            <TextView
+                                android:id="@+id/tv_item_simple_subject_rating11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="暂无评分"
+                                android:textColor="#F5FF00" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:text="(暂无评分)"
+                                android:textColor="#FF0000"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="4dp"
+                            android:singleLine="true"
+                            android:text="活着"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_originaltitle11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="(1994)"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_genres11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="剧情 / 家庭 / 历史"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_item_simple_subject_director11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="导演: 张艺谋"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tvitem_simple_subject_cast11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="主演:  葛优 / 巩俐 / 姜武 / 牛犇 / 郭涛 / 更多..."
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_item_simple_subject_image11"
+                        android:layout_width="100dp"
+                        android:layout_height="161dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/hz"
+                        tools:ignore="ContentDescription,MissingConstraints" />
+
+                </androidx.cardview.widget.CardView>
+
+                -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="数据来源于豆瓣"
+            android:textColor="#DD0606"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="更新中……"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+</ScrollView>
