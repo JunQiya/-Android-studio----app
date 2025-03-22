@@ -100,9 +100,21 @@ Apk文件路径： qimoapp-1\movieshare\app\release
 ![输入图片说明](https://foruda.gitee.com/images/1706250245351268043/9a93a89a_13851160.png "屏幕截图")
 ![输入图片说明](https://foruda.gitee.com/images/1706250252052404226/ea30633b_13851160.png "屏幕截图")
 ![输入图片说明](https://foruda.gitee.com/images/1706250258894569286/a8791e38_13851160.png "屏幕截图")
+
 ![输入图片说明](https://foruda.gitee.com/images/1706250274092096729/3777a2da_13851160.png "屏幕截图")
 
 9、App应用图标-名字
 ![输入图片说明](https://foruda.gitee.com/images/1706250327068780373/22ccc967_13851160.png "屏幕截图")
 代码：
 ![输入图片说明](https://foruda.gitee.com/images/1706250358172263925/af87a0c3_13851160.png "屏幕截图")
+
+
+## Star History
+
+<a href="https://www.star-history.com/#JunQiya/-Android-studio----app&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=JunQiya/-Android-studio----app&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=JunQiya/-Android-studio----app&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=JunQiya/-Android-studio----app&type=Date" />
+ </picture>
+</a>
